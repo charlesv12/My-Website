@@ -6,10 +6,15 @@ import './App.css'
 
 function App() {
   return (
-    <>
+    <div className="app-container">
       <NavBar />
-      <Footer />
-    </>
+      
+      <main className="main-content">
+        {/* Main page content goes here */}
+      </main>
+
+      <FooterLayout />
+    </div>
   )
 }
 
