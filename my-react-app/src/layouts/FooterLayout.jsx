@@ -1,17 +1,10 @@
 export default function FooterLayout() {
   return (
-    <div className="card text-center">
-      <div className="card-header">
-        Featured
+    <footer className="bg-dark text-white text-center py-4">
+      <div className="container">
+        <h5>My Website Title</h5>
+        <p>A simple, modern React application built with Bootstrap.</p>
       </div>
-      <div className="card-body">
-        <h5 className="card-title">Special title treatment</h5>
-        <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" className="btn btn-primary">Go somewhere</a>
-      </div>
-      <div className="card-footer text-body-secondary">
-        2 days ago
-      </div>
-    </div>
+    </footer>
   );
 }
