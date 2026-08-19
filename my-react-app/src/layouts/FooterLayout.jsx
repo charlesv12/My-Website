@@ -20,6 +20,12 @@ export default function FooterLayout() {
             </ul>
           </div>
         </div>
+
+        <hr className="border-secondary my-3" />
+
+        <div className="text-center text-secondary small">
+          © {new Date().getFullYear()} My Project. All rights reserved.
+        </div>
       </div>
     </footer>
   );
